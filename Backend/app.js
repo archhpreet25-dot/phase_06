@@ -16,8 +16,8 @@ mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("MongoDB connected successfully");
 
-    app.listen(8000, () => {
-      console.log("Server running at http://localhost:8000");
+    app.listen(4400, () => {
+      console.log("Server running at http://localhost:4400");
     });
   })
   .catch((error) => {
